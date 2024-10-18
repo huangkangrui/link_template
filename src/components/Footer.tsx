@@ -4,7 +4,42 @@ import React from "react";
 import { Container } from "@/components/Container";
 
 export function Footer() {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
+  const navigation = [
+    "https://www.pinterest.com/pin/924504629752114418",
+    "https://www.pinterest.com/pin/924504629752114415",
+    "https://www.pinterest.com/pin/924504629752114413",
+    "https://www.pinterest.com/pin/924504629752114412",
+    "https://www.pinterest.com/pin/924504629752114411",
+    "https://www.pinterest.com/pin/924504629752114410",
+    "https://www.pinterest.com/pin/924504629752114354",
+    "https://www.pinterest.com/pin/924504629752114335",
+    "https://www.pinterest.com/pin/924504629752112522",
+    "https://www.pinterest.com/pin/924504629752112521",
+    "https://www.pinterest.com/pin/924504629752112423",
+    "https://www.pinterest.com/pin/924504629752112407",
+    "https://www.pinterest.com/pin/924504629752112396",
+    "https://www.pinterest.com/pin/924504629752112375",
+    "https://www.pinterest.com/pin/924504629752112374",
+    "https://www.pinterest.com/pin/924504629752112371",
+    "https://www.pinterest.com/pin/924504629752112366",
+    "https://www.pinterest.com/pin/924504629752112360",
+    "https://www.pinterest.com/pin/924504629752112356",
+    "https://www.pinterest.com/pin/924504629752112352",
+    "https://www.pinterest.com/pin/924504629752112342",
+    "https://www.pinterest.com/pin/924504629751958641",
+    "https://www.pinterest.com/pin/924504629751958612",
+    "https://www.pinterest.com/pin/924504629751958601",
+    "https://www.pinterest.com/pin/924504629751958582",
+    "https://www.pinterest.com/pin/924504629751958564",
+    "https://www.pinterest.com/pin/924504629751958535",
+    "https://www.pinterest.com/pin/924504629751958426",
+    "https://www.pinterest.com/pin/924504629751957717",
+    "https://www.pinterest.com/pin/924504629751957680",
+    "https://www.pinterest.com/pin/924504629751957664",
+    "https://www.pinterest.com/pin/924504629751957639",
+    "https://www.pinterest.com/pin/924504629751957494",
+
+  ];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
     <div className="relative">
@@ -52,17 +87,7 @@ export function Footer() {
           </div>
 
           <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {navigation.map((item, index) => (
-                <Link
-                  key={index}
-                  href="/"
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
-                >
-                  {item}
-                </Link>
-              ))}
-            </div>
+
           </div>
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
@@ -111,7 +136,17 @@ export function Footer() {
             </div>
           </div>
         </div>
-
+        <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
+          {navigation.map((item, index) => (
+            <Link
+              key={index}
+              href={item}
+              className="w-50 px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+            >
+              {item.split('/')[item.split('/').length - 1]}
+            </Link>
+          ))}
+        </div>
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
           <a href="https://web3templates.com/" target="_blank" rel="noopener">
