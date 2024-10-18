@@ -64,9 +64,7 @@ export function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website template for
-              startups and indie projects. Its built with Next.js & TailwindCSS.
-              And its completely open-source.
+            Vercel usually configures the build settings automatically for Next.js apps, but you can modify any settings as needed. Ensure that
             </div>
 
             <div className="mt-5">
@@ -143,7 +141,7 @@ export function Footer() {
               href={item}
               className="w-50 px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
             >
-              {item.split('/')[item.split('/').length - 1]}
+              {`pinterest picture${index}`}
             </Link>
           ))}
         </div>
