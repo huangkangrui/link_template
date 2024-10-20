@@ -5,6 +5,21 @@ import { Container } from "@/components/Container";
 
 export function Footer() {
   const navigation = [
+    'https://www.pinterest.com/pin/924504629752221439/',
+    'https://www.pinterest.com/pin/924504629752221438/',
+    'https://www.pinterest.com/pin/924504629752221437/',
+    'https://www.pinterest.com/pin/924504629752221431/',
+    'https://www.pinterest.com/pin/924504629752221430/',
+    'https://www.pinterest.com/pin/924504629752221429/',
+    'https://www.pinterest.com/pin/924504629752221428/',
+    'https://www.pinterest.com/pin/924504629752221427/',
+    'https://www.pinterest.com/pin/924504629752221426/',
+    'https://www.pinterest.com/pin/924504629752221425/',
+    'https://www.pinterest.com/pin/924504629752221424/',
+    'https://www.pinterest.com/pin/924504629752221423/',
+    'https://www.pinterest.com/pin/924504629752221422/',
+    'https://www.pinterest.com/pin/924504629752221421/',
+    'https://www.pinterest.com/pin/924504629752221420/',
     'https://www.pinterest.com/pin/924504629752172972/',
     'https://www.pinterest.com/pin/924504629752172970/',
     'https://www.pinterest.com/pin/924504629752172969/',
@@ -52,7 +67,6 @@ export function Footer() {
     'https://www.pinterest.com/pin/924504629751957664/',
     'https://www.pinterest.com/pin/924504629751957639/',
     'https://www.pinterest.com/pin/924504629751957494/',
-
   ];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
